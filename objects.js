@@ -1,4 +1,4 @@
-var Playlist = {
+var playlist = {
   eminem: 'stan'
   
 }
