@@ -1,4 +1,4 @@
-var playlist = {
+var Playlist = {
   eminem: 'stan'
   
 }
@@ -7,5 +7,6 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 }
 function removeFromPlaylist(playlist, artistName){
-  
+  delete playlist.artistName
+  return playlist
 }
